@@ -7,10 +7,6 @@ yarn-error.log*
 # dotenv environment
 .env
 
-# LowDB storage
-data/
-*.json
-
 # Build artifacts
 dist/
 *.tsbuildinfo

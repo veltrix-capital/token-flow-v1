@@ -1,0 +1,4419 @@
+{
+  "businesses": [
+    {
+      "token": "0x0433d874a28147DB0b330C000fcC50C0f0BaF425",
+      "rewardRouter": "0xF908e307066dA7a10B7A0353200e9ae39351744f",
+      "redeemRouter": "0x16E7D0bf530D2A8da712c2D9f0494d16889AE0Fc",
+      "owner": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "privateKey": "0x7c852118294e51e653712a81e05800f419141751be58f605c371e15141b007a6",
+      "brand": "business_1",
+      "tokenName": "Company_1 Token"
+    },
+    {
+      "token": "0xA1Cc19e48ecEb082F3ea6AE2C8D3BC63a331C128",
+      "rewardRouter": "0xf68134a7E6C088c6C0fEf04a2997d43C4d90bC5b",
+      "redeemRouter": "0x74f28Bba2A8ef311D15a8A816Bb42B750cDd635F",
+      "owner": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "privateKey": "0x47e179ec197488593b187f80a00eb0da91f1b9d0b13f8733639f19c30a34926a",
+      "brand": "business_2",
+      "tokenName": "Company_2 Token"
+    },
+    {
+      "token": "0x41b03FbC7B46ce8A33dae3a23b26977A1a855EC4",
+      "rewardRouter": "0xD8C35C6de4823523F621BF592e9181507e7e05a7",
+      "redeemRouter": "0x7549F7e856EE30CA1165D2dE934d2a299d4131fe",
+      "owner": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "privateKey": "0x8b3a350cf5c34c9194ca85829a2df0ec3153be0318b5e2d3348e872092edffba",
+      "brand": "business_3",
+      "tokenName": "Company_3 Token"
+    }
+  ],
+  "users": [
+    {
+      "address": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "private_key": "0xf164d9dc6f405de0e2ff213d2197cd518c816fead8c7501caf2a6746658425f0"
+    },
+    {
+      "address": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "private_key": "0x5c92d907491435a19f92b27165854571685c1b26d73fdbcc36fa03a9f4d70d44"
+    },
+    {
+      "address": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "private_key": "0x2d5423330cf2f78189a6dcb020256b7150d10ab2d19bddea38e9c70efcd4d156"
+    },
+    {
+      "address": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "private_key": "0x6da31f869ec7d40021b13f4ce641fa7bdc8edb14e263bf7625e4b271fbe797ab"
+    },
+    {
+      "address": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "private_key": "0x8cca2870b61793c798d014370e229cd3f1d191e835c320500d48476092a3d8dd"
+    },
+    {
+      "address": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "private_key": "0x9f6682814ab0a79fc043c9dd79c7fccf1d2f03d20ac864fc17dafd32b0258ca0"
+    },
+    {
+      "address": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "private_key": "0xfcbe8f68f2daa37be6acf340b96713e0b11583bbd5382880079d9796598ad3cc"
+    },
+    {
+      "address": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "private_key": "0x5260b76ef8274f7e6bdcf75c8bb0b14198ebeefed959722f5fbbc8ca8ee7454d"
+    },
+    {
+      "address": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "private_key": "0x82ff9bcf0bdd1ee36aace93178893dd6d37f8d4f77413d2c149c81d8d2198bdc"
+    },
+    {
+      "address": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "private_key": "0xe3485a972768c307afeae20d937f63b10663daabe09bd85039aeea1a8f43ed0a"
+    }
+  ],
+  "events": [
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 85
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 49
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 140
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 28
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 0
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 138
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 133
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 135
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 146
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 188
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 73
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 95
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 163
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 190
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 104
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 23
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 183
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 68
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 65
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 115
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 162
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 171
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 3
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 0
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 62
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 81
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 10
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 124
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 125
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 110
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 12
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 1
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 180
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 119
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 134
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 14
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 182
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 171
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 97
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 38
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 131
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 113
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 148
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 44
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 195
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 28
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 177
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 55
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 106
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 180
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 29
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 156
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 187
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 117
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 10
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 127
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 170
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 20
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 38
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 163
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 137
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 45
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 166
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 4
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 173
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 176
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 183
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 1
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 137
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 57
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 11
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 41
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 187
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 193
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 168
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 120
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 176
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 7
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 32
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 68
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 149
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 28
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 161
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 145
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 160
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 55
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 48
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 185
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 142
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 44
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 137
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 177
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 17
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 199
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 100
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 148
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 196
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 1
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 30
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 140
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 86
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 73
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 63
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 81
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 160
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 114
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 1
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 83
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 180
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 104
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 19
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 51
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 187
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 83
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 149
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 178
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 3
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 21
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 199
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 19
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 108
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 44
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 34
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 87
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 172
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 40
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 93
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 115
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 166
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 192
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 184
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 103
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 161
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 160
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 15
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 73
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 12
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 10
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 155
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 37
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 119
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 149
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 183
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 50
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 71
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 10
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 80
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 98
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 85
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 144
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 14
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 187
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 160
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 50
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 89
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 68
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 196
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 0
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 17
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 195
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 63
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 39
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 55
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 130
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 144
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 130
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 115
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 43
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 147
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 141
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 197
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 70
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 193
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 193
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 21
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 115
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 163
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 4
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 131
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 18
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 105
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 164
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 139
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 130
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 131
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 54
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 81
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 123
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 120
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 72
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 24
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 130
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 160
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 119
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 170
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 73
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 96
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 126
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 170
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 14
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 145
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 118
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 50
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 7
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 1
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 50
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 188
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 176
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 46
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 122
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 133
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 181
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 181
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 64
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 23
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 78
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 18
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 127
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 32
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 84
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 135
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 69
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 195
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 122
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 89
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 80
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 148
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 89
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 111
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 89
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 14
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 106
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 27
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 186
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 199
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 116
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 166
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 173
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 109
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 115
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 86
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 20
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 98
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 1
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 42
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 172
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 77
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 44
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 155
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 190
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 51
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 145
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 165
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 121
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 169
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 24
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 37
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 9
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 139
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 124
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 11
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 114
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 74
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 79
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 178
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 45
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 151
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 108
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 81
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 157
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 95
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 142
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 6
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 8
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 176
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 106
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 45
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 60
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 31
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 64
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 23
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 118
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 100
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 13
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 135
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 155
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 180
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 82
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 6
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 95
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 187
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 138
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 31
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 3
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 41
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 54
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 107
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 145
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 148
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 154
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 154
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 128
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 124
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 101
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 138
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 123
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 142
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 149
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 76
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 196
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 0
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 197
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 139
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 149
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 131
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 143
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 64
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 159
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 174
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 70
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 39
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 53
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 133
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 12
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 152
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 179
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 130
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 40
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 109
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 108
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 61
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 87
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 121
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 38
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 84
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 22
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 22
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 69
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 82
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 15
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 47
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 54
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 15
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 163
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 164
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 59
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 54
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 13
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 83
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 169
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 83
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 72
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 54
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 16
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 74
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 129
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 151
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 49
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 86
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 91
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 111
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 198
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 31
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 196
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 59
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 1
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 109
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 34
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 139
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 12
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 100
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 27
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 49
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 0
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 72
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 179
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 125
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 131
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 0
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 56
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 77
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 192
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 9
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 178
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 12
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 77
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 119
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 69
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 124
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 137
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 37
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 165
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 53
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 103
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 116
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 90
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 86
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 123
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 114
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 117
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 129
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 189
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 175
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 90
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 18
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 31
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 165
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 142
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 92
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 119
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 0
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 173
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 65
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 95
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 117
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 129
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 131
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 131
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 126
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 136
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 129
+    },
+    {
+      "type": "Reward",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 174
+    },
+    {
+      "type": "Reward",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 100
+    },
+    {
+      "type": "Reward",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 136
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 181
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 102
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 121
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 71
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 33
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 83
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 165
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 27
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 111
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 133
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 69
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 86
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 42
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 183
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 160
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 20
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 56
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 20
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 1
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 45
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 177
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 154
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 153
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 40
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 74
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 112
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 87
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 31
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 122
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 185
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 141
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 192
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 95
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 179
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 182
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 53
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 24
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 28
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 4
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 3
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 74
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 151
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 195
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 54
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 111
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 63
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 72
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 43
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 155
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 58
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 18
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 104
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 89
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 157
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 182
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 60
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 81
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 42
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 119
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 18
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 60
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 121
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 130
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 83
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 167
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 14
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 169
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 2
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 157
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 137
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 54
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 96
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 6
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 73
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 197
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 175
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 131
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 2
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 76
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 102
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 190
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 121
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 145
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 182
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 58
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 10
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 188
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 167
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 46
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 5
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 82
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 44
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 119
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 194
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 72
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 185
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 158
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 73
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 9
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 52
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 45
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 166
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 101
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 144
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 79
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 18
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 143
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 131
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 49
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 142
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 5
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 188
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 186
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 60
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 107
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 84
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 3
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 166
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 163
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 167
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 94
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 55
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 114
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 105
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 89
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 68
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 16
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 0
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 90
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 57
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 120
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 125
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 166
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 156
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 112
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 163
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 137
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 7
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 75
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 96
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 120
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 115
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 137
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 10
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 159
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 61
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 7
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 119
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 172
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 78
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 181
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 28
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 118
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 47
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 39
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 53
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 77
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 75
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 101
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 87
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 172
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 156
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 166
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 1
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 141
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 80
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 0
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 1
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 41
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 47
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 27
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 150
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 109
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 26
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 35
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 175
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 196
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 36
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 84
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 13
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 41
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 77
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 0
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 114
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 186
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 138
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 124
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 190
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 73
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 93
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 61
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 178
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 28
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 197
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 182
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 159
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 53
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 152
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 115
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 10
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 50
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 73
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 15
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 168
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 93
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 70
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 117
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 54
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 179
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 131
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 141
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 29
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 12
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 27
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 59
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 162
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 68
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 79
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 188
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 88
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 179
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 70
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 140
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 1
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 41
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 35
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 62
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 193
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 25
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 196
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 16
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 62
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 147
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 155
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 29
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 5
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 70
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 172
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 76
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 107
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 29
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 99
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 172
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 185
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 170
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 199
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 101
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 171
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 100
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 42
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 92
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 43
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 140
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 73
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 166
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 30
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 180
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 140
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 90
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 186
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 128
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5bff7B9714bAA5D1062977baab0a2b72D6BC70c7",
+      "amount": 115
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 0
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 197
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 29
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 119
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 86
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 78
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 117
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 197
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 152
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 102
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 120
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 17
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 72
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 1
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 50
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 170
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 64
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 131
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 9
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 19
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 122
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 33
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 123
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xD16ac3b317732563f2B06D1aFea91f5703C3791F",
+      "amount": 160
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 80
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 143
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0xE1a911e460450DF870bB7199314E961b049b10D6",
+      "amount": 151
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 171
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 128
+    },
+    {
+      "type": "Redeem",
+      "business": "business_3",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 47
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x5b491E28242c52bF372006AFF14D1bbC38Fc1980",
+      "amount": 183
+    },
+    {
+      "type": "Redeem",
+      "business": "business_1",
+      "user": "0x68871F9Db7371a8fC3747782C18399A0F039736c",
+      "amount": 128
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x54a173f13d32f6aA56d18DDE0E1218a35EBCb2a0",
+      "amount": 151
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 61
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x0d739bD76D8682E20f633910BedAaE001bF8668D",
+      "amount": 146
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x74Bf7C7593BCfaB7A916aEBF9Bb3c4252774A7FD",
+      "amount": 13
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x2422c1BD44Cc664Fba7C775575A4DD5Ce0fca5DF",
+      "amount": 78
+    },
+    {
+      "type": "Redeem",
+      "business": "business_2",
+      "user": "0x8883EEfa7d10520e266E43FBf336EdefF14D4408",
+      "amount": 128
+    }
+  ]
+}

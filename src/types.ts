@@ -13,5 +13,12 @@ export interface BusinessInfo {
   rewardRouter: string;
   redeemRouter: string;
   owner: string;
-  privateKey?: string;
+  privateKey: string;
+  brand: string;
+  tokenName: string;
 }
+
+export enum ACTION_TYPE {
+  REWARD = 'Reward',
+  REDEEM = 'Redeem'
+};
