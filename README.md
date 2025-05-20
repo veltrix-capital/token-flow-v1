@@ -1,5 +1,27 @@
-Tasks
+# Token Flow Analytics Tool for Veltrix LoyaltyX
 
+### Context
+Veltrix LoyaltyX is a token-based loyalty platform where each business issues its own ERC-20 reward token. These tokens power the loyalty ecosystem by allowing:
+
+- Rewards: Users earn tokens from a business when making purchases.
+- Redemptions: Users redeem a business’s token only at that issuing business.
+- Transfers: Users may transfer tokens to other users.
+- Swaps: Users can swap tokens between two different business tokens via DAO-approved routes.
+
+### Given Data (Sample Data in data/graph.json)
+With a growing ecosystem of:
+
+- 3 businesses
+- 10 active users
+- Over 800 rewards
+- Over 800 redemptions
+- Over 500 user-to-user transfers
+- Over 500 inter-business swaps
+
+Each business wants visibility into how its token is circulating.
+
+## Tasks
+Build a Token Flow Analytics Tools that:
 1. Token Flow Pathways
 	- Who received tokens from whom?
 	- How do tokens flow from reward to redeem?

@@ -16,6 +16,7 @@ export interface BusinessInfo {
   privateKey: string;
   brand: string;
   tokenName: string;
+  tokenPrice: number;
 }
 
 export enum ACTION_TYPE {

@@ -31,6 +31,7 @@ async function createBusiness(
     privateKey: '',
     brand: '',
     tokenName: '',
+    tokenPrice: 1,
   };
 
   try {
@@ -46,6 +47,7 @@ async function createBusiness(
         businessInfo.owner = owner;
         businessInfo.brand = businessName;
         businessInfo.tokenName = tokenName;
+        businessInfo.tokenPrice = Math.ceil(Math.random() * 5);
       }
     }
   } catch(err) {
@@ -112,9 +114,9 @@ async function handleLoayltyAction(actionType: string, business: BusinessInfo, u
       const receipt = await tx.wait();
     }
     
-    await saveEvent({type: actionType, business: business.brand, user: user.address, amount});
+    await saveEvent({type: actionType, business: business.owner, user: user.address, amount, token: business.token});
 
-    return { actionType, business: business.brand, token: business.tokenName, user: user.address, amount};
+    return { actionType, business: business.owner, token: business.tokenName, user: user.address, amount};
   } catch(err) {
     console.log('err', err);
     return {};
@@ -141,6 +143,98 @@ async function createBulkTransactions(type: ACTION_TYPE, count: number) {
   }
 }
 
+async function handleTransferAction(business: BusinessInfo, from: Account, to: Account, amount: number) {
+  // This is only simualtion, not linked to on chain events
+  await saveEvent({
+    type: 'transfer',
+    business: business.owner,
+    token: business.token,
+    from: from.address,
+    to: to.address,
+    amount: amount
+  });
+}
+
+async function createTransferAction(count: number) {
+  const users = await getUsers();
+  const businesses = await getBusinesses();
+
+  for(let i = 0; i < count; i++) {
+    const user1 = users[Math.floor(Math.random() * users.length)];
+    let user2 = user1;
+
+    while(user2 == user1) {
+      user2 = users[Math.floor(Math.random() * users.length)];
+    }
+    const business = businesses[Math.floor(Math.random() * businesses.length)];
+    await handleTransferAction(
+      business, 
+      user1,
+      user2,
+      Math.floor(Math.random() * 200)
+    );
+    // Wait for 2 seconds before the next iteration
+    if (i < count) {
+      await new Promise((resolve) => setTimeout(resolve, 10));
+    }
+  }
+}
+
+async function handleSwapAction(
+  fromBusiness: BusinessInfo, 
+  fromUser: Account, 
+  toBusiness: BusinessInfo, 
+  toUser: Account, 
+  fromAmount: number) {
+    let amountValue = fromAmount * fromBusiness.tokenPrice;
+    let receving = Math.floor(amountValue / toBusiness.tokenPrice);
+
+    await saveEvent({
+      type: 'swap',
+      fromUser: fromUser.address,
+      fromToken: fromBusiness.token,
+      fromBusiness: fromBusiness.owner,
+      fromAmount: fromAmount,
+      toUser: toUser.address,
+      toToken: toBusiness.token,
+      toBusiness: toBusiness.owner,
+      toAmount: receving
+    });
+  }
+
+async function createSwapAction(count: number) {
+  const users = await getUsers();
+  const businesses = await getBusinesses();
+
+  for(let i = 0; i < count; i++) {
+    const user1 = users[Math.floor(Math.random() * users.length)];
+    let user2 = user1;
+
+    while(user2 == user1) {
+      user2 = users[Math.floor(Math.random() * users.length)];
+    }
+
+    let business1 = businesses[Math.floor(Math.random() * businesses.length)];
+    let business2 = business1;
+
+    while(business1 === business2) {
+      business2 = businesses[Math.floor(Math.random() * businesses.length)];
+    }
+
+    await handleSwapAction(
+      business1,
+      user1,
+      business2,
+      user2,
+      Math.floor(Math.random() * 100) + 10
+    );
+    // Wait for 2 seconds before the next iteration
+    if (i < count) {
+      await new Promise((resolve) => setTimeout(resolve, 10));
+    }
+  }
+}
+
 async function createBusinessAndUsers() {
   await registerBusiness(3);
   await generateUsers(10);
@@ -151,7 +245,8 @@ async function main() {
   await createBulkTransactions(ACTION_TYPE.REWARD, 300);
   await createBulkTransactions(ACTION_TYPE.REDEEM, 300);
   // console.log('action type', ACTION_TYPE.REWARD);
-  
+  // await createTransferAction(400);
+  // await createSwapAction(100);
 }
 
 main().catch(console.error);

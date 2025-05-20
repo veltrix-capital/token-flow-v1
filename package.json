@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev src/scripts/simulateTransactions.ts",
+    "analyze": "node src/scripts/analyzeTokenFlow.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
