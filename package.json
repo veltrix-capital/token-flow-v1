@@ -1,21 +1,22 @@
 {
   "name": "token-flow-v1",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "ts-node-dev src/scripts/simulateTransactions.ts",
     "analyze": "node src/scripts/analyzeTokenFlow.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "analyze2": "node src/scripts/analyzeTokenFlow2.js",
+    "analyze3": "node src/scripts/analyzeTokenFlow3.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "dotenv": "^17.2.0",
     "ethers": "^6.15.0",
     "graphnetworkx": "^2.1.9",
-    "lowdb": "^7.0.1",
+    "lowdb": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   }
