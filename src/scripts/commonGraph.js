@@ -8,14 +8,14 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname  = path.dirname(__filename);
 
-// ── load JSON “DB” ───────────────────────
+// load JSON “DB”
 const adapter = new JSONFile(
   path.join(__dirname, '../../data/graph.json')
 );
 const db = new Low(adapter, { businesses: [], users: [], events: [] });
 await db.read();
 
-// ── build graph ──────────────────────────
+//  build graph 
 export const graph = new Graph();
 
 // nodes
