@@ -4,11 +4,10 @@
   "type": "module",
   "scripts": {
     "dev": "ts-node-dev src/scripts/simulateTransactions.ts",
-    "analyze": "node src/scripts/analyzeTokenFlow.js",
+    "analyze": "node src/scripts/analyzeTokenFlowTask1_Task5.js",
     "analyze2": "node src/scripts/analyzeTokenFlow2.js",
     "analyze3": "node src/scripts/analyzeTokenFlow3.js",
     "analyze4": "node src/scripts/analyzeTokenFlow4.js",
-    "analyze5": "node src/scripts/analyzeTokenFlow5.js",
     "analyze6": "node src/scripts/analyzeTokenFlow6.js",
     "analyze7": "node src/scripts/analyzeTokenFlow7.js"
 
